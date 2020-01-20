@@ -48,14 +48,12 @@ a {
     }
 
 h1 {
-    font-family: 'Poppins', cursive;
     font-weight: 400;
     margin: 0;
 }
 
 h2 {
-    padding: 5px 5%;
-    /*text-align: center;*/
+    padding: 5px 1%;
     margin: 0;
     color: #F7FFF7;
     background-color: rgba(0, 0, 0, 0.13);
@@ -84,6 +82,15 @@ h3, p {
     .place .btn:hover {
         background: rgba(47, 48, 97, .8);
     }
+
+.sticky {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    float: left;
+}
 
 .background-color1 {
     background: #74b9c6;
